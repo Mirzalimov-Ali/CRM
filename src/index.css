@@ -1,13 +1,27 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.form-control {
+  font-size: 20px !important;
+  height: 58px !important;
+  width: 100% !important;
+  background: #EFEEF8 !important;
+  border-radius: 8px !important;
+  padding-left: 70px !important;
+}
+
+.react-tel-input .selected-flag {
+  width: 60px !important;
+  padding: 15px !important;
+}
+
+.react-tel-input .flag-dropdown {
+  border-right: none !important;
+}
+
+.react-tel-input .flag {
+  transform: scale(2) !important;
 }
