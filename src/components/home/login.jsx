@@ -31,7 +31,7 @@ function Login() {
                 <DemoInputs type='email' placeholder='Enter email address' id='email' style={{margin: "8px 0 30px 0"}}/>
 
                 <DemoLabels htmlFor='Password'>Password</DemoLabels>
-                <DemoInputs type={showPassword ? 'text' : 'password'} value={password} onChange={(e) => setPassword(e.target.value)} placeholder='Enter email address' id='Password' style={{margin: "8px 0 30px 0", position: "relative", display: "flex", justifyContent: "end", paddingRight: "60px"}}/>
+                <DemoInputs type={showPassword ? 'text' : 'password'} value={password} onChange={(e) => setPassword(e.target.value)} placeholder='Enter password' id='Password' style={{margin: "8px 0 30px 0", position: "relative", display: "flex", justifyContent: "end", paddingRight: "60px"}}/>
                 <div style={{position: 'absolute', display: "flex", justifyContent: "end", width: "483px", alignItems: "center", marginTop: "-68px", marginLeft: "-20px"}} >
                   {showPassword ? <FaEyeSlash style={{transform: "scale(1.5)", cursor: "pointer"}} onClick={togglePasswordVisibility}/> : <FaEye style={{transform: "scale(1.5)", cursor: "pointer"}} onClick={togglePasswordVisibility}/>}
                 </div>

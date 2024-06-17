@@ -10,7 +10,7 @@ import mailIcon from '../../assets/mail-icon.png'
 import { Link } from 'react-router-dom'
 
 function Demo() {
-    const [phone, setPhone] = useState('');
+  const [phone, setPhone] = useState('');
   return (
     <DemoContainer>
       <HomeNavbar/>
