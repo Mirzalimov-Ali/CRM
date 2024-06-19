@@ -36,7 +36,7 @@ function Login() {
                   {showPassword ? <FaEyeSlash style={{transform: "scale(1.5)", cursor: "pointer"}} onClick={togglePasswordVisibility}/> : <FaEye style={{transform: "scale(1.5)", cursor: "pointer"}} onClick={togglePasswordVisibility}/>}
                 </div>
 
-                <LoginLeftButton>Next</LoginLeftButton>
+                <Link to={"/profile"} style={{textDecoration: "none"}}><LoginLeftButton>Next</LoginLeftButton></Link>
 
                 <LoginLeftLine/>
 

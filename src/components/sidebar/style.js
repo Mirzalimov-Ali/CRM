@@ -7,6 +7,7 @@ export const NavbarContainer = styled.div`
     background: var(--Color-7, #FFF);
     position: fixed;
     top: 0;
+    z-index: 100;
 `
 
 export const SidebarContainer = styled.div`
@@ -21,11 +22,12 @@ export const SidebarContainer = styled.div`
     flex-direction: column;
     border-right: 1px solid rgba(0, 0, 0, 0.10);
     border-radius: 12px;
+    z-index: 101;
 `
 
 export const Logotype = styled.div`
     width: 100%;
-    height: 44px;
+    min-height: 44px;
     border-radius: 36.221px;
     background: var(--600, linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), #2C2669);
     color: white;

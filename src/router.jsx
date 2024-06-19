@@ -7,6 +7,9 @@ import ForgotPasswordComponent from './components/home/forgotPassword'
 import ChangePassword from './components/home/changePassword'
 import Profile from './components/profile/profile'
 import Sidebar from './components/sidebar/sidebar'
+import Leads from './components/leads/leads'
+import TeachersPage from './components/teachers/teachers'
+import TeacherInfo from './components/teachers/teacherInfo'
 
 function RouterComponent() {
   const location = useLocation()
@@ -20,9 +23,12 @@ function RouterComponent() {
             <Route path='/login' element={<Login/>}/>
             <Route path='/login/forgot-password' element={<ForgotPasswordComponent/>}/>
             <Route path='/login/change-password' element={<ChangePassword/>}/>
-
-
+            
             <Route path='/profile' element={<Profile/>}/>
+            <Route path='/leads' element={<Leads/>}/>
+            <Route path='/teachers' element={<TeachersPage/>}/>
+            <Route path='/teacher/:id' element={<TeacherInfo/>}/>
+
         </Routes>
     </div>
   )

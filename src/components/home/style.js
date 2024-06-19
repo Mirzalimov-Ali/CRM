@@ -64,6 +64,7 @@ export const NavbarContainer = styled.div`
     align-items: center;
     padding: 0 45px;
     top: 0;
+    z-index: 100;
 `
 
 export const NavbarLeft = styled.p`
@@ -93,10 +94,12 @@ export const NavbarRightButton = styled.button`
 // Demo
 export const DemoContainer = styled.div`
     background-color: #EFEEF8;
-    height: 100vh;
+    padding-top: 110px;
+    padding-bottom: 50px;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     gap: 60px;
 `
 

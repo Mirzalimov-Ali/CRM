@@ -24,7 +24,7 @@ function Sidebar() {
         <div style={{display: "flex", alignItems: 'center', justifyContent: "space-between", marginTop: "30px", padding: "0 12px"}}>
           <SidebarBetweenWrapper>
             <img src={mapIcon} alt="" />
-            <SidebarText>Termiz</SidebarText>
+            <SidebarText>Daegu</SidebarText>
           </SidebarBetweenWrapper>
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
             <path d="M4.47145 5.52925C4.2111 5.2689 3.78899 5.2689 3.52864 5.52925C3.26829 5.7896 3.26829 6.21171 3.52864 6.47206L7.52864 10.4721C7.78899 10.7324 8.2111 10.7324 8.47144 10.4721L12.4714 6.47206C12.7318 6.21171 12.7318 5.7896 12.4714 5.52925C12.2111 5.2689 11.789 5.2689 11.5286 5.52925L8.00004 9.05784L4.47145 5.52925Z" fill="#2C2669"/>
