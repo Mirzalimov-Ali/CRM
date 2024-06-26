@@ -95,6 +95,7 @@ export const Table = styled.table`
 `
 
 export const THead = styled.thead`
+    display: flex;
     .td{
         color: #A098D5;
         font-family: "Public Sans";
@@ -468,7 +469,7 @@ export const SalaryTd = styled.td`
 
 export const AddTeacherModalStyle = styled.div`
     width: 650px;
-    height: 983px;
+    /* height: 983px; */
 `
 
 export const AddTeacherModalTop = styled.div`
@@ -554,4 +555,54 @@ export const AddTeacherBtn = styled.div`
     font-style: normal;
     font-weight: 400;
     line-height: 24px; 
+`
+
+export const SelectInput = styled.select`
+    height: 58px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid var(--200, #CFCBEA);
+    background: var(--100, #EFEEF8);
+    padding: 8px 16px;
+    color: var(--600, #2C2669);
+    font-family: "Public Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    cursor: pointer;
+
+    &:focus {
+        outline-style: groove;
+    }
+`
+
+export const SmsTemplateWrapper = styled.div`
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    margin-top: 9px;
+`
+
+export const SmsTemplateBox = styled.button`
+    display: flex;
+    width: 100%;
+    height: 58px;
+    padding: 8px 16px;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid var(--200, #CFCBEA);
+    color: var(--600, #2C2669);
+    background: none;
+    cursor: pointer;
+
+    font-family: "Public Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+    &:hover {
+        background: #CFCBEA;
+    }
 `

@@ -3,15 +3,16 @@ import homeBackground from '../../assets/homepage-background.png'
 
 // Home
 export const HomeContainer = styled.div`
-    background-image: url(${homeBackground});
+    // background-image: url(${homeBackground});
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
     width: 100vw;
-    background-color: #2C2669;
-    background-blend-mode: multiply;
-
+    // background-color: #2C2669;
+    // background-blend-mode: multiply;
+    background-image: linear-gradient(rgba(0, 0, 100, 0.5), rgba(0, 0, 110, 0.5)), url(${homeBackground});
+    background-position: 10% 88%;
     display: flex;
     flex-direction: column;
     color: white;

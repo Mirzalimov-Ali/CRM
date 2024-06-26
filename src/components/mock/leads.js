@@ -16,7 +16,7 @@ export const LeadsData = {
             id: 2,
             leads: {
                 name: "Asliddinov Odilbek",
-                photo: profileImg,
+                photo: `${profileImg}`,
                 phoneNumber: '99 811 11 68',
                 fromWhere: "Instagram",
                 section: "Pre - Inter"

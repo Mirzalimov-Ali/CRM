@@ -25,3 +25,51 @@
 .react-tel-input .flag {
   transform: scale(2) !important;
 }
+
+/* Accordion */
+.css-x2o9yg-JoyAccordionGroup-root {
+  gap: 10px !important;
+}
+
+.css-1twr7re-JoyAccordionSummary-button {
+  height: 64px !important;
+  border-radius: 6px !important;
+  border: 1px solid var(--300, #BFBAE3) !important;
+}
+
+.css-x2o9yg-JoyAccordionGroup-root .MuiAccordion-root:not([data-last-child]) {
+  border: none;
+}
+
+.css-m65nqi-JoyAccordionDetails-root {
+  border: 1px solid #BFBAE3 !important;
+  border-top: none;
+  border-radius: 0 0 6px 6px !important;
+  margin-top: -5px;
+  background: red !important;
+}
+
+.css-m65nqi-JoyAccordionDetails-root:not(.Mui-expanded) {
+  border: none;
+}
+
+.css-1r2bn3-JoySvgIcon-root {
+  margin-right: 22px !important;
+  color: #BFBAE3 !important;
+}
+
+.css-q7gy78-JoyAccordionSummary-indicator.Mui-expanded {
+  margin-right: 22px !important;
+}
+
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root {
+  justify-content: space-between !important;
+}
+
+.css-6hp17o-MuiList-root-MuiMenu-list  {
+  min-width: 340px !important;
+}
+
+.css-jb2345-JoyAccordionDetails-content {
+  gap: 10px;
+}
